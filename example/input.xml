@@ -1,0 +1,37 @@
+<registry_record><metadata><hash_id>a432f8c7b73136fc1455fe9e3ebeaf75239f89828bfb92e8bbc039dd1214b9e554f6f82d859b99d9b17a570656622e1c</hash_id><status>actual</status><last_change_record_number></last_change_record_number><last_container_fixed_at>2021-05-24T15:49:06+00:00</last_container_fixed_at></metadata><base_data><unified_real_estate_complex_record><record_info><record_number>77:17:0120316:42135</record_number><section_number>77:17:0120316:42135</section_number><registration_date>2021-05-24T15:49:06+00:00</registration_date></record_info><object><common_data><cad_number>77:17:0120316:42135</cad_number><quarter_cad_number>77:17:0120316</quarter_cad_number><type><code>002001008000</code><value>Единый недвижимый комплекс</value></type></common_data></object><cad_links><land_cad_number><cad_number>50:21:0000000:136</cad_number></land_cad_number><included_cad_numbers><included_cad_number><cad_number>77:17:0120316:42136</cad_number></included_cad_number><included_cad_number><cad_number>77:17:0120316:42137</cad_number></included_cad_number></included_cad_numbers></cad_links><params><purpose>Средства обороны</purpose><name>Технический комплекс</name></params><address_location><address_type><code>02</code><value>Описание местоположения</value></address_type><address><readable_address>Российская Федерация, г. Москва, пос. Сосенское</readable_address><address_fias><level_settlement><fias>90648b5c-d6e7-4bb0-9782-7908808325cf</fias><okato>45297574000</okato><kladr>7701700000000</kladr><oktmo>45958000</oktmo><region><code>77</code><value>Москва</value></region><district><type_district>п</type_district><name_district>Сосенское</name_district></district></level_settlement></address_fias></address></address_location><cad_works><cad_work><work_type>созданием единого недвижимого комплекса, расположенного по адресу: город Москва, поселение Сосенское на земельном участке с кадастровым номером 50:21:0000000:136</work_type><cadastral_engineer_snils>ՋՄՌՁՎՎՑ</cadastral_engineer_snils><cadastral_engineer_attest_number>ՁԶՌԽԷԼՖ</cadastral_engineer_attest_number><date_cadastral>2021-05-17</date_cadastral><fio_cad_ingineer><surname>ՋԷՖՄԽԽՓ</surname><name>ՁՑՃԵՎՌՀ</name><patronymic>ՈԿՆՄՄՀԺ</patronymic></fio_cad_ingineer></cad_work></cad_works></unified_real_estate_complex_record></base_data></registry_record>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <hash_id>a432f8c7b73136fc1455fe9e3ebeaf75239f89828bfb92e8bbc039dd1214b9e554f6f82d859b99d9b17a570656622e1c</hash_id>
+    <elements>
+        <element>
+            <xpath>/registry_record/base_data/unified_real_estate_complex_record/cad_works/cad_work/cadastral_engineer_snils</xpath>
+            <id>ՋՄՌՁՎՎՑ</id>
+            <value>103-079-850 34</value>
+            <parentId>0</parentId>
+        </element>
+        <element>
+            <xpath>/registry_record/base_data/unified_real_estate_complex_record/cad_works/cad_work/cadastral_engineer_attest_number</xpath>
+            <id>ՁԶՌԽԷԼՖ</id>
+            <value>69-11-368</value>
+            <parentId>0</parentId>
+        </element>
+        <element>
+            <xpath>/registry_record/base_data/unified_real_estate_complex_record/cad_works/cad_work/fio_cad_ingineer/surname</xpath>
+            <id>ՋԷՖՄԽԽՓ</id>
+            <value>Гребешков</value>
+            <parentId>0</parentId>
+        </element>
+        <element>
+            <xpath>/registry_record/base_data/unified_real_estate_complex_record/cad_works/cad_work/fio_cad_ingineer/name</xpath>
+            <id>ՁՑՃԵՎՌՀ</id>
+            <value>Вадим</value>
+            <parentId>0</parentId>
+        </element>
+        <element>
+            <xpath>/registry_record/base_data/unified_real_estate_complex_record/cad_works/cad_work/fio_cad_ingineer/patronymic</xpath>
+            <id>ՈԿՆՄՄՀԺ</id>
+            <value>Вячеславович</value>
+            <parentId>0</parentId>
+        </element>
+    </elements>
+</data>

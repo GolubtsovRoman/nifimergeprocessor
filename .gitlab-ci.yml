@@ -1,0 +1,19 @@
+stages:
+  - build
+
+build NifiMergeProcessor:
+  stage: build
+  image: docker-proxy.tddev.ru/library/maven:3.8.4-jdk-8
+  script:
+    - mvn install
+  artifacts:
+    expire_in: 2 week
+    paths:
+      - nifi-NifiMergeProcessor-nar/target/nifi-NifiMergeProcessor-nar-*.nar
+      - nifi-NifiMergeProcessor-processors/target/nifi-NifiMergeProcessor-processors-*.jar
+  only:
+    - merge_requests
+    - master
+    - tags
+  tags:
+    - docker
